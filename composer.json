@@ -1,0 +1,27 @@
+{
+    "name": "twothink/twothink-auth",
+    "description": "auth package for twothink",
+    "homepage": "https://github.com/twothink/twothink-auth",
+    "license": "Apache-2.0",
+    "minimum-stability": "dev",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "pingguo",
+            "email": "593657688@qq.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/twothink/twothink-auth/issues"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "topthink/think-helper": ">=1.0.4",
+        "topthink/think-installer": ">=1.0.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        }
+    }
+}
